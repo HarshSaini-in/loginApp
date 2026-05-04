@@ -1,7 +1,7 @@
-🔐 login_webApp
+🔐 loginApp
 
-   login_webApp is a user authentication system built using Node.js, Express, and MongoDB.
-      It implements the essential functionality required for managing user accounts and handling secure access to an application.
+   loginApp is a user authentication system built using Node.js, Express, and MongoDB.
+   It implements the essential functionality required for managing user accounts and handling secure access to an application.
     
    This project covers key authentication flows, including:
     
@@ -12,17 +12,17 @@
     
    It is designed to demonstrate how authentication works in real applications while keeping the structure organized and easy to extend.
 
-🚀 Features
+Features
 
-    ✅ User Registration & Login
-    🔒 Password Hashing using bcrypt
-    🍪 JWT Authentication (stored in cookies)
-    📧 OTP Verification via Email
-    🔁 Forgot Password & Reset Password Flow
-    ⏳ Reset Token Expiry Handling
-    🔐 Secure Password Update System
+     User Registration & Login
+     Password Hashing using bcrypt
+     JWT Authentication (stored in cookies)
+     OTP Verification via Email
+     Forgot Password & Reset Password Flow
+     Reset Token Expiry Handling
+     Secure Password Update System
 
-🛠️ Tech Stack
+ Tech Stack
 
     Backend: Node.js, Express.js
     Database: MongoDB (Mongoose)
@@ -30,9 +30,9 @@
     Email Service: Nodemailer
     Environment Config: dotenv 
 
-📂 Project Structure
+ Project Structure
 
-      login_webApp/
+      loginApp/
           |── node_modules/
           |
           |── public/
@@ -68,11 +68,11 @@
           │── package.json
           │── server.js
 
-⚙️ Installation & Setup
+ Installation & Setup
 
       1️⃣ Clone the repository
         git clone https://github.com/HarshSaini-in/loginApp.git
-        cd login_webApp
+        cd loginApp
       
       2️⃣ Install dependencies
         npm install
